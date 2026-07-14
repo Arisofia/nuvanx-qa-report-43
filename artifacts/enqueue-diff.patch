@@ -1,0 +1,5 @@
+--- wp-content/themes/nuvanx-medical/functions.php
++++ wp-content/themes/nuvanx-medical/functions.php
+@@ -100,5 +100,5 @@
+-   // No prototype
++   // Prototype removed, nvx-brand-home loaded natively

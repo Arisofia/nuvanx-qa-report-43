@@ -1,0 +1,143 @@
+--- /tmp/qa-report-43/release/production-nvx-brand-home.css	2026-07-14 17:07:53
++++ /Users/MARIA/.gemini/antigravity/scratch/nvx-brand-home-final.css	2026-07-14 17:07:32
+@@ -1570,7 +1570,7 @@
+  * aquí se restaura el sistema aprobado para la home.
+  */
+ #nvx-home-main.nvx-editorial-home.nvx-home {
+-	--nvx-ivory: #F7F1E8;
++	--nvx-ivory: #F4F1EC;
+ 	--nvx-warm-beige: #E9DDCF;
+ 	--nvx-taupe: #CBBBA8;
+ 	--nvx-gold: #B89A5B;
+@@ -1703,4 +1703,131 @@
+ 	.nvx-brand-title {
+ 		font-size: clamp(1.9rem, 8vw, 2.5rem);
+ 	}
++}
++
++
++/* --- TICKET #43: VISUAL RECONCILIATION (CONSOLIDATED) --- */
++body.home,
++body.home .nvx-treatments,
++body.home .wp-block-group.has-background,
++body.home .nvx-treatment-card,
++body.home .wp-block-column,
++body.home .nvx-testimonials,
++body.home .nvx-faq,
++body.home .nvx-footer {
++    background-color: var(--nvx-ivory);
++    color: #161511;
++}
++
++body.home .nvx-treatment-card,
++body.home .wp-block-column {
++    box-shadow: none;
++    border: none;
++    border-radius: 0;
++}
++
++body.home .nvx-treatment-card img,
++body.home .wp-block-column img {
++    border-radius: 0;
++    margin-bottom: 20px;
++}
++
++/* Header */
++body.home .nvx-header {
++    background-color: var(--nvx-ivory);
++    box-shadow: none;
++    border-bottom: none;
++    padding: 20px 40px;
+ }
++body.home .nvx-header a,
++body.home .nvx-header .nvx-nav-link {
++    color: #161511;
++    font-weight: 400;
++    text-transform: uppercase;
++    letter-spacing: 0.05em;
++}
++body.home .nvx-header-btn-primary {
++    background-color: #161511;
++    color: var(--nvx-ivory);
++    border-radius: 4px;
++    text-transform: uppercase;
++    font-size: 13px;
++    padding: 12px 24px;
++    font-weight: 500;
++}
++body.home .nvx-header__inner {
++    display: flex;
++    flex-direction: column;
++    align-items: center;
++    max-width: 100%;
++}
++body.home .nvx-header__logo {
++    margin-bottom: 20px;
++}
++body.home .nvx-header__logo img {
++    height: 40px;
++}
++body.home .nvx-main-nav {
++    display: flex;
++    justify-content: space-between;
++    align-items: center;
++    width: 100%;
++    max-width: 1200px;
++}
++body.home .nvx-main-nav ul {
++    display: flex;
++    justify-content: space-between;
++    width: 100%;
++    padding: 0;
++    margin: 0;
++}
++
++/* Hero */
++body.home .nvx-hero-wrap,
++body.home .nvx-hero {
++    background-color: var(--nvx-ivory);
++    text-align: center;
++    padding-top: 180px;
++    padding-bottom: 80px;
++}
++body.home .nvx-hero h1,
++body.home .nvx-hero .nvx-hero-title {
++    font-family: 'Bodoni Moda', 'Playfair Display', serif;
++    font-size: clamp(48px, 6vw, 80px);
++    font-weight: 400;
++    line-height: 1.1;
++    color: #161511;
++    max-width: 1000px;
++    margin: 0 auto 30px auto;
++}
++body.home .nvx-hero p,
++body.home .nvx-hero .nvx-hero-subtitle {
++    font-family: 'Manrope', sans-serif;
++    font-size: 18px;
++    font-weight: 300;
++    line-height: 1.5;
++    color: #161511;
++    max-width: 600px;
++    margin: 0 auto 40px auto;
++}
++body.home .nvx-hero .nvx-btn,
++body.home .nvx-hero a.button {
++    background-color: #161511;
++    color: var(--nvx-ivory);
++    border: 1px solid #161511;
++    border-radius: 4px;
++    text-transform: uppercase;
++    font-size: 14px;
++    padding: 16px 32px;
++    font-weight: 500;
++    letter-spacing: 0.05em;
++}
++
++body.home .nvx-treatment-card h3,
++body.home .wp-block-column h3 {
++    font-family: 'Bodoni Moda', serif;
++    font-size: 28px;
++    font-weight: 400;
++    color: #161511;
++    margin-bottom: 15px;
++}

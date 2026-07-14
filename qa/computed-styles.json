@@ -1,0 +1,20 @@
+[
+  {
+    "viewport": "1440x900",
+    "body_background": "rgb(244, 241, 236)",
+    "h1_font_family": "Bodoni Moda",
+    "h1_font_size": "66.24px",
+    "h1_line_height": "64.91px",
+    "hero_height": "10718px",
+    "header_height": "100px"
+  },
+  {
+    "viewport": "390x844",
+    "body_background": "rgb(244, 241, 236)",
+    "h1_font_family": "Bodoni Moda",
+    "h1_font_size": "44px",
+    "h1_line_height": "44px",
+    "hero_height": "10722px",
+    "header_height": "80px"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "test_suite": "Ticket #43 QA",
+  "status": "PASS",
+  "url": "https://staging2.nuvanx.com/",
+  "http_status": 200,
+  "document_title": "NUVANX Medicina Estética Láser en Madrid"
+}

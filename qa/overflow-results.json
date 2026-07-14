@@ -1,0 +1,8 @@
+[
+  {"viewport": "1440x900", "scrollWidth": 1440, "viewportWidth": 1440, "overflow": false},
+  {"viewport": "1280x800", "scrollWidth": 1280, "viewportWidth": 1280, "overflow": false},
+  {"viewport": "1024x768", "scrollWidth": 1024, "viewportWidth": 1024, "overflow": false},
+  {"viewport": "768x1024", "scrollWidth": 768, "viewportWidth": 768, "overflow": false},
+  {"viewport": "390x844", "scrollWidth": 390, "viewportWidth": 390, "overflow": false},
+  {"viewport": "360x800", "scrollWidth": 360, "viewportWidth": 360, "overflow": false}
+]
